@@ -1,15 +1,14 @@
-This HTML document demonstrates a JavaScript function that determines the maximum of two given values. The function works with both numbers and strings.
+This HTML document demonstrates a JavaScript function that identifies and prints the maximum value between two provided inputs.
 
 Features:
 Functionality:
-The getmax function takes two arguments and returns the greater of the two.
+The script defines a function that compares two values and logs the greater one to the console.
 
-How It Works:
-Function Declaration:
-The getmax function checks which of the two parameters, a or b, is greater.
+How It Works
+Function Definition:
+The findmax function takes two parameters, a and b.
+It compares the two values using a simple if-else statement.
 
-Return Value:
-If a is greater than b, it returns a. Otherwise, it returns b.
-
-Example Calls:
-The function is called with various pairs of values, including numbers and strings, and logs the results to the console.
+Comparison Logic:
+If a is greater than b, the function logs a.
+Otherwise, it logs b.
